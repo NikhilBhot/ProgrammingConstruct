@@ -11,6 +11,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("2:Check Even Or Odd");
             Console.WriteLine("3:Check Vote Eligibility");
             Console.WriteLine("4:Check Largest No From Three");
+            Console.WriteLine("5:Check Addmision Eligibility");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -35,6 +36,23 @@ namespace ProgrammingConstruct
                 case 4:
                     /*Write a C# Sharp program to find the largest of three numbers..*/
                     LargestFromThreeNo.largeFromThree();
+                    break;
+                case 5:
+                    /*Write a C# Sharp program to find the eligibility of admission for a
+                        professional course based on the following criteria:
+                        Marks in Maths >=65
+                        Marks in Physics >=55
+                        Marks in Physics >=50
+                        Total in all three subject >=180 or
+                        Total in Math and (Physics or Chemistry) >=140
+
+                        Test Data :
+                            Input the marks obtained in Physics :65
+                            Input the marks obtained in Chemistry :51
+                            Input the marks obtained in Mathematics :72
+                            Expected Output :
+                            The candidate is eligible for admission..*/
+                    AddmisionEligibility.addmisionCriteria();
                     break;
                 default:
                     Console.WriteLine("Please Enter Correct Choice");
