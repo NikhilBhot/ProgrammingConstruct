@@ -10,6 +10,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("1:Check Integer Equal");
             Console.WriteLine("2:Check Even Or Odd");
             Console.WriteLine("3:Check Vote Eligibility");
+            Console.WriteLine("4:Check Largest No From Three");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -30,6 +31,10 @@ namespace ProgrammingConstruct
                     /*Write a C# Sharp program to read the age of a candidate and
                     determine whether it is eligible for casting his/ her own vote.*/
                     Voteeligiblity.voteEligibility();
+                    break;
+                case 4:
+                    /*Write a C# Sharp program to find the largest of three numbers..*/
+                    LargestFromThreeNo.largeFromThree();
                     break;
                 default:
                     Console.WriteLine("Please Enter Correct Choice");
