@@ -13,7 +13,9 @@ namespace ProgrammingConstruct
             Console.WriteLine("4:Check Largest No From Three");
             Console.WriteLine("5:Check Addmision Eligibility");
             Console.WriteLine("6:Check Week Day Number");
-             Console.WriteLine("7:Arithmetic Operation");
+            Console.WriteLine("7:Arithmetic Operation");
+            Console.WriteLine("8:Two's Power");
+            Console.WriteLine("9:Square Of Number");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -64,7 +66,18 @@ namespace ProgrammingConstruct
                     /*TTake 2 numbers has user inputs and perform arithmetic operations on it.
                         i.e Addition, Subtraction, Multiplication and Division using switch Case.*/
                     ArithmeticOperation.arithmeticOperation();
+                    break; 
+                case 8:
+                    /*Write a program that takes a user input n and prints a table of the powers
+                        of 2 that are less than or equal to 2^n..*/
+                    PowerOfTwo.twoPower();
                     break;
+                case 9:
+                    /*Write a program that reads a number N and prints the sum of squares of
+                        N numbers starting from 1.*/
+                    SquareOfNumber.squareOfNum();
+                    break;
+               
                 default:
                     Console.WriteLine("Please Enter Correct Choice");
                     break;
