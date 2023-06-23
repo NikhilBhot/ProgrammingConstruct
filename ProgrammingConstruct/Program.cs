@@ -12,6 +12,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("3:Check Vote Eligibility");
             Console.WriteLine("4:Check Largest No From Three");
             Console.WriteLine("5:Check Addmision Eligibility");
+            Console.WriteLine("6:Check Week Day Number");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -53,6 +54,10 @@ namespace ProgrammingConstruct
                             Expected Output :
                             The candidate is eligible for admission..*/
                     AddmisionEligibility.addmisionCriteria();
+                    break;
+                case 6:
+                    /*Take user input has weekday number to calculate the weekday name:*/
+                    WeekDayNumber.weekDayNum();
                     break;
                 default:
                     Console.WriteLine("Please Enter Correct Choice");
