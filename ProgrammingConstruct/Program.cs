@@ -16,6 +16,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("7:Arithmetic Operation");
             Console.WriteLine("8:Two's Power");
             Console.WriteLine("9:Square Of Number");
+            Console.WriteLine("10:Factorial Of Number");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -76,6 +77,16 @@ namespace ProgrammingConstruct
                     /*Write a program that reads a number N and prints the sum of squares of
                         N numbers starting from 1.*/
                     SquareOfNumber.squareOfNum();
+                    break;
+                case 10:
+                    /*Write a program that computes a factorial of a number taken as input
+                        5 Factorial – 5! = 1 * 2 * 3 * 4 * 5.*/
+                    Console.Write("Enter a number: ");
+                    int number = int.Parse(Console.ReadLine());
+
+                    int factorial = Factorial.CalculateFactorial(number);
+
+                    Console.WriteLine($"{number} factorial (!) = {factorial}");
                     break;
                
                 default:
