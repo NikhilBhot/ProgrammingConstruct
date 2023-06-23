@@ -13,6 +13,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("4:Check Largest No From Three");
             Console.WriteLine("5:Check Addmision Eligibility");
             Console.WriteLine("6:Check Week Day Number");
+             Console.WriteLine("7:Arithmetic Operation");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -58,6 +59,11 @@ namespace ProgrammingConstruct
                 case 6:
                     /*Take user input has weekday number to calculate the weekday name:*/
                     WeekDayNumber.weekDayNum();
+                    break; 
+                case 7:
+                    /*TTake 2 numbers has user inputs and perform arithmetic operations on it.
+                        i.e Addition, Subtraction, Multiplication and Division using switch Case.*/
+                    ArithmeticOperation.arithmeticOperation();
                     break;
                 default:
                     Console.WriteLine("Please Enter Correct Choice");
