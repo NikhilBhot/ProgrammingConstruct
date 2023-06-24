@@ -19,6 +19,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("10:Factorial Of Number");
             Console.WriteLine("11:Flip Coin");
             Console.WriteLine("12:Reverse Word");
+            Console.WriteLine("13:Natural No First Five");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -102,6 +103,11 @@ namespace ProgrammingConstruct
                     string reversedWord = ReverseWord.reverseWord(word);
 
                     Console.WriteLine("Reversed word: " + reversedWord);
+                    break;
+                case 13:
+                    /*while loop to compute sum of first 5 natural numbers*/
+
+                    FirstFiveNaturalNo.NaturalNo();
                     break;
                
                 default:
