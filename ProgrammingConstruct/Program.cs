@@ -17,6 +17,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("8:Two's Power");
             Console.WriteLine("9:Square Of Number");
             Console.WriteLine("10:Factorial Of Number");
+            Console.WriteLine("11:Flip Coin");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -87,6 +88,10 @@ namespace ProgrammingConstruct
                     int factorial = Factorial.CalculateFactorial(number);
 
                     Console.WriteLine($"{number} factorial (!) = {factorial}");
+                    break;
+                case 11:
+                    /*Perform Flip Coin problem till either Heads or Tails wins 20 times.*/
+                    FlipCoin.flipCoinOperation();
                     break;
                
                 default:
