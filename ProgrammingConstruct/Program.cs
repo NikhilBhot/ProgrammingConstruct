@@ -18,6 +18,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("9:Square Of Number");
             Console.WriteLine("10:Factorial Of Number");
             Console.WriteLine("11:Flip Coin");
+            Console.WriteLine("12:Reverse Word");
             
             Console.WriteLine("_____________________________");
             Console.WriteLine("Enter Your Choice");
@@ -92,6 +93,15 @@ namespace ProgrammingConstruct
                 case 11:
                     /*Perform Flip Coin problem till either Heads or Tails wins 20 times.*/
                     FlipCoin.flipCoinOperation();
+                    break;
+                case 12:
+                    /*Take a user input word and reverse it using loop.*/
+                    Console.Write("Enter a word: ");
+                    string word = Console.ReadLine();
+
+                    string reversedWord = ReverseWord.reverseWord(word);
+
+                    Console.WriteLine("Reversed word: " + reversedWord);
                     break;
                
                 default:
